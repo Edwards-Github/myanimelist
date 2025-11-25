@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  font-family: Arial;
+}
+
+body {
+  background-color: rgb(18, 18, 18);
+}
+
+.ad {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.categories {
+  background-color: #2e51a2;
+}
+
+.categories a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+
+.categories img {
+  height: 34px;
+  width: 37px;
+  margin: 0px;
+  padding: 1px 5px;
+}
+
+.mal-bunkasai-ad {
+  background-color: pink;
+  text-align: center;
+  padding: 8px;
+}
+
+.japanese-title, .english-title {
+  background-color: rgb(18, 18, 18);
+  padding-left: 10px;
+}
+
+.japanese-title {
+  color: white;
+  padding-top: 5px;
+}
+
+.english-title {
+  color: gray;
+  padding-bottom: 5px;
+  border-bottom: solid 1px gray;
+}
+
+.solo-leveling-main-picture {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+
+.add-to-my-list {
+  border-bottom: 1px solid #2e51a2;
+  text-decoration: none;
+  width: 250px;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+.add-to-my-list a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #2e51a2;
+  font-size: 12px;
+}
+
+.add-to-my-favorites {
+  border-bottom: 1px solid #2e51a2;
+  text-decoration: none;
+  width: 250px;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+.add-to-my-favorites a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #2e51a2;
+  font-size: 12px;
+}
+
+.socials {
+  margin-left: 10px;
+}
+
+.alternative-titles, .information, .statistics, .available-at {
+  color: white;
+  padding-left: 2px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px gray;
+  margin-left: 12px;
+  width: 250px;
+}
+
+.alternative-titles-section, .information-section, .statistics-section {
+  color: gray;
+  margin: 5px 12px;
+  width: 250px;
+  font-size: 12px;
+}
+
+.available-at-section img {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.available-at-section a {
+  text-decoration: none;
+}
+
+.official-site, .en-twitter, .pr-twitter {
+  margin: 5px 12px;
+  font-size: 12px;
+}
