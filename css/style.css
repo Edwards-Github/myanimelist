@@ -96,7 +96,7 @@ body {
   margin-left: 10px;
 }
 
-.alternative-titles, .information, .statistics, .available-at {
+.alternative-titles, .information, .statistics, .available-at, .resources, .streaming-platforms {
   color: white;
   padding-left: 2px;
   padding-bottom: 5px;
@@ -118,11 +118,27 @@ body {
   margin-right: 5px;
 }
 
-.available-at-section a {
+.available-at-section, .resources-section a {
   text-decoration: none;
 }
 
-.official-site, .en-twitter, .pr-twitter {
+.official-site, .en-twitter, .pr-twitter, .resources-section {
   margin: 5px 12px;
+  font-size: 12px;
+}
+
+.aniDB {
+  margin-top: 12px;
+}
+
+.streaming-platforms-section img{
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+.streaming-platforms-section a{
+  text-decoration: none;
   font-size: 12px;
 }
