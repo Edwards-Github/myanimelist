@@ -142,3 +142,113 @@ body {
   text-decoration: none;
   font-size: 12px;
 }
+
+.details {
+  margin-left: 12px;
+  border-bottom: solid 1px gray;
+}
+
+.details a {
+  color: gray;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.details a:hover {
+  color: black;
+  background-color: white;
+}
+
+.directory {
+  color: white;
+  font-size: 12px;
+  word-spacing: 5px;
+  margin-left: 12px;
+}
+
+.directory a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.score {
+  color: white;
+  width: 50px;
+  font-size: 12px;
+  padding: 2px 10px;
+  margin-left: 12px;
+  margin-bottom: 2px;
+  text-align: center;
+  background-color: #2e51a2;
+}
+
+.score-subsection {
+  color: white;
+  margin-left: 12px;
+}
+
+.rating {
+  color: white;
+  margin-left: 18px;
+  font-family: tahoma;
+  font-size: 25px;
+}
+
+.number-of-users {
+  color: white;
+  font-size: 10px;
+  margin-left: 15px;
+}
+
+.studio {
+  color: gray;
+  font-size: 12px;
+}
+
+.studio a {
+  text-decoration: none;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.trailer {
+  margin-left: 12px;
+}
+
+.add-to-my-list-button {
+  color: #fff;
+  background-color: #4f74c8;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 11px;
+  margin-left: 12px;
+  margin-right: 1px;
+}
+
+.review, .episode {
+  color: #fff;
+  background-color: #353535;
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 50px;
+  border-radius: 4px;
+  margin-right: 1px;
+}
+
+.synopsis, .background, .related-entries {
+  color: #fff;
+  margin-left: 12px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  border-bottom: solid 1.5px #414141;
+}
+
+.synopsis-description, .background-description {
+  color: #fff;
+  font-size: 11px;
+  margin-left: 12px;
+}
