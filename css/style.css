@@ -238,7 +238,7 @@ body {
   margin-right: 1px;
 }
 
-.synopsis, .background, .related-entries {
+.synopsis, .background, .related-entries, .MALxJapan-title, .characters-section {
   color: #fff;
   margin-left: 12px;
   margin-bottom: 5px;
@@ -252,3 +252,70 @@ body {
   font-size: 11px;
   margin-left: 12px;
 }
+
+.entry-section {
+  border-bottom: solid 1.5px #414141;
+  margin-left: 12px;
+}
+
+.entry-image {
+  margin-left: 12px;
+}
+
+.entry-type {
+  color: #fff;
+  font-size: 11px;
+  margin-left: 12px;
+}
+
+.entry-title {
+  color: #abc4ed;
+  font-size: 11px;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+  .summary-text {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 12px;
+  }
+
+  .summary-text a {
+    color: #abc4ed;
+  }
+
+  .summary-link {
+    margin-left: 58px;
+  }
+
+  .MALxJapan-title a {
+    color: #abc4ed;
+    margin-right: -90%;
+    text-decoration: none;
+  }
+
+  .MALxJapan-ad img {
+    margin-left: 12px;
+  }
+
+  .MALxJapan-ad a {
+    color: #abc4ed;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 12px;;
+  }
+
+  .character img {
+    margin-left: 12px;
+  }
+
+  .character a {
+    color: #abc4ed;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .voice-actor {
+    margin-left: 100px;
+  }
