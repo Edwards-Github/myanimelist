@@ -238,7 +238,7 @@ body {
   margin-right: 1px;
 }
 
-.synopsis, .background, .related-entries, .MALxJapan-title, .characters-section {
+.synopsis, .background, .related-entries, .MALxJapan-title, .characters-section, .characters-voice-actors, .staff, .opening-theme, .ending-theme, .episode-videos {
   color: #fff;
   margin-left: 12px;
   margin-bottom: 5px;
@@ -316,6 +316,40 @@ body {
     text-decoration: none;
   }
 
-  .voice-actor {
-    margin-left: 100px;
+  .character p {
+    color: #fff;
+    font-size: 11px;
+  }
+
+  .staff img {
+    margin-left: 12px;
+  }
+
+  .staff a {
+    color: #abc4ed;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .staff p {
+    color: #fff;
+    font-size: 11px;
+    margin-left: 58px;
+  }
+
+  .opening-theme-section, .ending-theme-section {
+    color: #fff;
+    font-size: 11px;
+    height: auto; 
+    margin-left: 12px;
+  }
+
+  .episode-videos-thumbnails {
+    margin-left: 12px;
+  }
+
+  .episode-videos-thumbnails img{
+    margin: 2px;
+    height: auto;
+    width: 200px;
   }
