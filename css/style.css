@@ -115,6 +115,14 @@ body {
   font-size: 12px;
 }
 
+.information-section a {
+  text-decoration: none;
+}
+
+.information-section a:hover {
+  text-decoration: underline;
+}
+
 .alternative-titles-section summary {
   color: #abc4ed;
 }
@@ -125,13 +133,39 @@ body {
   margin-right: 5px;
 }
 
-.available-at-section, .resources-section a {
+.available-at-section a, .resources-section a {
   text-decoration: none;
 }
 
+.available-at-section, .resources-section
 .official-site, .en-twitter, .pr-twitter, .resources-section {
   margin: 5px 12px;
   font-size: 12px;
+}
+
+.resources-section img {
+  height: 20px;
+  width: 20px;
+  margin-left: 12px;
+}
+
+.resources-section summary {
+  color: #abc4ed;
+  margin-left: 12px;
+}
+
+.resources-section summary:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.available-at-section summary {
+  color: #abc4ed;
+  margin-left: 12px;
+}
+
+.official-site img {
+  margin-left: 10px;
 }
 
 .aniDB {
@@ -145,9 +179,18 @@ body {
   margin-left: 12px;
 }
 
-.streaming-platforms-section a{
+.streaming-platforms-section a {
   text-decoration: none;
   font-size: 12px;
+}
+
+.streaming-platforms-section summary {
+  color: #abc4ed;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.available-at-section a:hover, .resources-section a:hover, .streaming-platforms-section a:hover {
+  text-decoration: underline;
 }
 
 .details {
