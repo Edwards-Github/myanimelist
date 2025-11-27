@@ -115,6 +115,10 @@ body {
   font-size: 12px;
 }
 
+.alternative-titles-section summary {
+  color: #abc4ed;
+}
+
 .available-at-section img {
   height: 20px;
   width: 20px;
@@ -230,7 +234,7 @@ body {
   margin-right: 12px;
 }
 
-.trailer {
+.solo-leveling-trailer {
   margin-left: 12px;
 }
 
