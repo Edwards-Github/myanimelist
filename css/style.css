@@ -1,11 +1,18 @@
+:root {
+  --dark-bg: #272727;
+  --light-text: #e0e0e0;
+  --gray-text: gray;
+}
+
 * {
   margin: 0;
   font-family: Arial;
 }
 
-* a{
+* a {
   color: #abc4ed;
 }
+
 body {
   background-color: rgb(18, 18, 18);
 }
@@ -16,87 +23,93 @@ body {
   margin-right: auto;
 }
 
-.categories {
+#main-navigation {
+  font-size: 13px;
   background-color: #2e51a2;
 }
 
-.categories a {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 10px 5px;
-  text-decoration: none;
+#main-navigation ul {
+  margin: 0;
+  padding: 0; /* This fixes the left spacing issue */
+  list-style: none; /* Move this from li to ul */
 }
 
-.categories img {
+#main-navigation li {
+  display: inline-block; /* Use inline-block instead of inline for better spacing control */
+  vertical-align: middle; /* Aligns the image with text */
+}
+
+#main-navigation a {
+  color: #fff;
+  padding: 10px 15px; /* Increased horizontal padding for better spacing */
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; /* Replace the <strong> tag */
+  display: inline-block; /*make padding work better */
+}
+
+#main-navigation a:hover {
+  background-color: #272727;
+}
+#main-navigation img {
   height: 34px;
   width: 37px;
-  margin: 0px;
-  padding: 1px 5px;
+  padding: 0 10px; /* Add some spacing around the icon */
 }
 
-.mal-bunkasai-ad {
+#mal-bunkasai-ad {
   background-color: pink;
   text-align: center;
   padding: 8px;
 }
 
-.japanese-title, .english-title {
+#title {
   background-color: #272727;
-  padding-left: 10px;
-}
-
-.japanese-title {
-  color: white;
-  padding-top: 5px;
-}
-
-.english-title {
-  color: gray;
-  padding-bottom: 5px;
+  padding: 5px 10px 5px 10px; /* top right bottom left */
   border-bottom: solid 1px gray;
 }
 
-.solo-leveling-main-picture {
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 2px;
-  margin-bottom: 10px;
+#japanese-title {
+  color: #e0e0e0;
 }
 
-.add-to-my-list {
-  border-bottom: 1px solid #2e51a2;
-  text-decoration: none;
+#english-title {
+  color: gray;
+}
+
+#main-picture {
+  height: auto; 
   width: 250px;
+}
+
+.btn-add-list, .btn-add-favorites {
+  width: 250px;
+  display: block;
+  font-size: 12px;
   margin-left: 12px;
   margin-bottom: 10px;
-}
-
-.add-to-my-list a {
   text-decoration: none;
-  margin-left: 5px;
-  color: #abc4ed;
-  font-size: 12px;
-}
-
-.add-to-my-favorites {
   border-bottom: 1px solid #2e51a2;
-  text-decoration: none;
+}
+
+.sidebar-section {
   width: 250px;
   margin-left: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
 }
 
-.add-to-my-favorites a {
-  text-decoration: none;
-  margin-left: 5px;
-  color: #abc4ed;
-  font-size: 12px;
+.sidebar-section h3 {
+  color: white;
+  font-size: 13px;
+  padding: 5px;
+  margin: 0 0 10px 0;
+  border-bottom: solid 1px gray;
 }
 
-.socials {
-  margin-left: 10px;
+#socials {
+  width: 240px;
+  margin: 10px 12px 10px 12px;
 }
 
 .alternative-titles, .information, .statistics, .available-at, .resources, .streaming-platforms {
