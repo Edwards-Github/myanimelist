@@ -19,7 +19,7 @@ body {
 
 main {
   float: left;
-  width: 89.5%;
+  width: 86%;
 }
 
 .ad {
@@ -102,7 +102,7 @@ main {
 
 #sidebar {
   float: left;
-  width: 10.5%;
+  width: 14%;
   border-right: solid 1px #414141;
   box-sizing: border-box;
 }
