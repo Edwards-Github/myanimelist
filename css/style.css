@@ -6,7 +6,7 @@
 
 * {
   margin: 0;
-  font-family: Arial;
+  font-family: Verdana, Arial;
 }
 
 * a {
@@ -15,6 +15,11 @@
 
 body {
   background-color: rgb(18, 18, 18);
+}
+
+main {
+  float: left;
+  width: 89.5%;
 }
 
 .ad {
@@ -80,16 +85,25 @@ body {
 #main-picture {
   height: auto; 
   width: 250px;
+  margin-left: 12px;
 }
 
-.btn-add-list, .btn-add-favorites {
-  width: 250px;
+.btn-add {
+  width: 235px;
   display: block;
   font-size: 12px;
+  padding: 2px 3px;
   margin-left: 12px;
   margin-bottom: 10px;
   text-decoration: none;
   border-bottom: 1px solid #2e51a2;
+}
+
+#sidebar {
+  float: left;
+  width: 10.5%;
+  border-right: solid 1px #414141;
+  box-sizing: border-box;
 }
 
 .sidebar-section {
@@ -99,111 +113,62 @@ body {
   padding-bottom: 15px;
 }
 
-.sidebar-section h3 {
-  color: white;
-  font-size: 13px;
-  padding: 5px;
-  margin: 0 0 10px 0;
-  border-bottom: solid 1px gray;
+.sidebar-section h2 {
+  color: #e0e0e0;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 0;
+  margin: 4px 0 5px;
+  border-bottom: solid 1px #414141;
+}
+
+.sidebar-section p {
+  color: #e0e0e0;
+  font-size: 11px;
+  padding: 3px 0px;
+}
+
+.sidebar-section summary {
+  color: #abc4ed;
+  line-height: 1.5em;
+  font-size: 11px;
+}
+
+.sidebar-section summary:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.sidebar-section strong {
+  color: #BBBBBB;
+  font-size: 11px;
+  font-weight: 700px;
+}
+
+.sidebar-section a {
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.sidebar-section a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.sidebar-section img {
+  height: 20px;
+  padding: 4px;
+  vertical-align: middle;
+}
+
+
+#available-at a {
+  margin: 0px 0px 0px 6px;
 }
 
 #socials {
   width: 240px;
   margin: 10px 12px 10px 12px;
-}
-
-.alternative-titles, .information, .statistics, .available-at, .resources, .streaming-platforms {
-  color: white;
-  padding-left: 2px;
-  padding-bottom: 5px;
-  border-bottom: solid 1px gray;
-  margin-left: 12px;
-  width: 250px;
-}
-
-.alternative-titles-section, .information-section, .statistics-section {
-  color: gray;
-  margin: 5px 12px;
-  width: 250px;
-  font-size: 12px;
-}
-
-.information-section a {
-  text-decoration: none;
-}
-
-.information-section a:hover {
-  text-decoration: underline;
-}
-
-.alternative-titles-section summary {
-  color: #abc4ed;
-}
-
-.available-at-section img {
-  height: 20px;
-  width: 20px;
-  margin-right: 5px;
-}
-
-.available-at-section a, .resources-section a {
-  text-decoration: none;
-}
-
-.available-at-section, .resources-section
-.official-site, .en-twitter, .pr-twitter, .resources-section {
-  margin: 5px 12px;
-  font-size: 12px;
-}
-
-.resources-section img {
-  height: 20px;
-  width: 20px;
-  margin-left: 12px;
-}
-
-.resources-section summary {
-  color: #abc4ed;
-  margin-left: 12px;
-}
-
-.resources-section summary:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.available-at-section summary {
-  color: #abc4ed;
-  margin-left: 12px;
-}
-
-.official-site img {
-  margin-left: 10px;
-}
-
-.aniDB {
-  margin-top: 12px;
-}
-
-.streaming-platforms-section img{
-  height: 20px;
-  width: 20px;
-  margin-top: 5px;
-  margin-left: 12px;
-}
-
-.streaming-platforms-section a {
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.streaming-platforms-section summary {
-  color: #abc4ed;
-  font-size: 12px;
-  margin-left: 20px;
-}
-.available-at-section a:hover, .resources-section a:hover, .streaming-platforms-section a:hover {
-  text-decoration: underline;
 }
 
 .details {
