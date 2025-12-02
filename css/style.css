@@ -71,6 +71,7 @@ main {
 #title {
   background-color: #272727;
   padding: 5px 10px 5px 10px; /* top right bottom left */
+  margin-bottom:10px;
   border-bottom: solid 1px gray;
 }
 
@@ -171,68 +172,110 @@ main {
   margin: 10px 12px 10px 12px;
 }
 
-.details {
-  margin-left: 12px;
+#mini-navbar {
+  margin: 5px 5px 10px;
+  padding: 0px 0px 2px;
+  border-bottom: solid 1px #e0e0e0;
+}
+
+#mini-navbar a {
+  color: #a3a3a3;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0px 4px;
+  text-decoration: none;
+}
+
+#mini-navbar a:hover {
+  color: #121212;
+  background-color: #f0f0f0;
+}
+
+#details {
+
   border-bottom: solid 1px gray;
 }
 
-.details a {
+#details a {
   color: gray;
   font-size: 12px;
   text-decoration: none;
 }
 
-.details a:hover {
+#details a:hover {
   color: black;
   background-color: white;
 }
 
-.directory {
-  color: white;
+#directory {
+  color: #e0e0e0;
   font-size: 12px;
-  word-spacing: 5px;
+  padding: 0px 0px 2px;
   margin-left: 12px;
 }
 
-.directory a {
+#directory a {
+  color: #abc4ed;
   text-decoration: none;
   font-size: 12px;
 }
 
-.score {
-  color: white;
-  width: 50px;
-  font-size: 12px;
-  padding: 2px 10px;
+#stats-block {
+  height: 90px;
+  width: 650px;
+  /* padding: 8px 10px; */
   margin-left: 12px;
-  margin-bottom: 2px;
+  display: inline-block;
+  border: solid 1px #414141;
+  background-color: #181818;
+}
+
+#score-section {
+  float: left;
+  width: 17%;
+  box-sizing: border-box;
+  border-right: solid 1px #414141;
   text-align: center;
+  padding: 8px 10px;
+}
+
+#score {
+  color: #e0e0e0;
   background-color: #2e51a2;
-}
-
-.score-section {
-  width: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 12px;
-  border: solid 1px #414141;
-  background-color: #272727;
-}
-
-.score-subsection {
-  color: white;
-  width: 550px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 12px;
-  border: solid 1px #414141;
   text-align: center;
-  background-color: #272727;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 3px 15px; /* Add padding inside the blue box */
+  margin-bottom: 8px;
+}
+
+#rating {
+  color: #e0e0e0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2px 0; /* Space above and below */
+}
+
+#number-of-users {
+  color: #e0e0e0;
+  font-size: 10px;
+  text-align: center;
+  /* width: 75px; */
+}
+
+#stats-section {
+  float: left;
+  width: 83%;
+  box-sizing: border-box;
+  color: #e0e0e0;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .rating {
   color: white;
-  margin-left: 18px;
   font-family: tahoma;
   font-size: 25px;
 }
@@ -240,7 +283,7 @@ main {
 .number-of-users {
   color: white;
   font-size: 10px;
-  margin-left: 15px;
+  text-align: center;
 }
 
 .studio {
