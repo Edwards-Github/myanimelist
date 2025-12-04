@@ -88,12 +88,14 @@ main {
 
 #main-picture {
   height: auto; 
-  width: 15.625rem;
+  /* width: 15.625rem; */
+  width: 95%;
   margin-left: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .btn-add {
-  width: 14.688rem;
+  width: 90%;
   display: block;
   font-size: 0.75rem;
   padding: 0.125rem 0.1875rem;
@@ -113,7 +115,8 @@ main {
 }
 
 .sidebar-section {
-  width: 15.625rem;
+  /* width: 15.625rem; */
+  width: 95%;
   margin-left: 0.75rem;
   margin-bottom: 1.25rem;
   padding-bottom: 0.9375rem;
@@ -413,7 +416,7 @@ main {
   }
 
   .summary-link {
-    margin-left: 50.5rem;
+    margin-left: 4.313rem;
   }
 
   .MALxJapan-title a {
